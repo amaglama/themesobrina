@@ -275,10 +275,9 @@ body {
 
 /*****CARUSEL****/
 .slider {
-    width: 75vw;
     height: auto;
-    margin: auto;
     overflow: hidden;
+    padding-bottom: 2rem;
 }
 
 .slider .slide-track {
@@ -331,7 +330,7 @@ footer {
     align-items: center;
     padding: 1rem;
     color: var(--neutral-50);
-    font-size: 0.8rem;
+    font-size: 1rem;
     z-index: 100;
 }
 
@@ -361,4 +360,12 @@ footer div:nth-child(3) img {
 }
 .footer-menu a.active{
     color: var(--white);
+}
+@media (max-width:768px) {
+  footer{
+    grid-template-columns: 1fr;
+  }
+  footer div:nth-child(1), footer div:nth-child(3){
+    display: none;
+  }
 }

@@ -6,7 +6,6 @@
   justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
   gap: 2rem;
 }
 
@@ -68,9 +67,6 @@
 
 /* Contenedor de las pestañas */
 .tabs {
-  width: 100%;
-  max-width: 800px;
-  margin: 20px;
   border: 1px solid #ddd;
   background-color: #fff;
   border-radius: 8px;
@@ -194,10 +190,11 @@ input[type="radio"] {
 }
 .companies{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
 }
 .companies img{
-  vertical-align: baseline;
-  max-width: 100%;
-  display: inline;
+  height: 1rem;
 }

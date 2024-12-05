@@ -1,18 +1,13 @@
-body,
-input,
-textarea {
-  font-family: "Poppins", sans-serif;
-}
-
 .container-contact {
   position: relative;
   width: 90%;
-  padding: 1rem;
   background-color: #fafafa;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  padding-bottom: 2rem;
 }
 
 .form {
@@ -327,10 +322,6 @@ textarea.input {
 }
 
 @media (max-width: 480px) {
-  .container-contact {
-    padding: 1.5rem;
-  }
-
   .contact-info:before {
     display: none;
   }
